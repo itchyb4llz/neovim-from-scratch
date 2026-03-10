@@ -18,4 +18,8 @@ return {
       transparent_mode = true,
     },
   },
+  {
+    "rose-pine/neovim",
+    name = "rose-pine",
+  },
 }
