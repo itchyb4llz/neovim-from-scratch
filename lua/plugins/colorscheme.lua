@@ -1,37 +1,106 @@
 return {
-  { "lunarvim/darkplus.nvim", priority = 1000 },
+  -- Load all theme plugins but don't apply them
+  -- This ensures all colorschemes are available for hot-reloading
   {
-    "folke/tokyonight.nvim",
-    opts = {
-      transparent = true,
-      styles = {
-        sidebars = "transparent",
-        floats = "transparent",
-      },
-    },
+    "ribru17/bamboo.nvim",
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    "bjarneo/aether.nvim",
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    "bjarneo/ethereal.nvim",
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    "bjarneo/hackerman.nvim",
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    "bjarneo/vantablack.nvim",
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    "bjarneo/white.nvim",
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    "catppuccin/nvim",
+    name = "catppuccin",
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    "neanias/everforest-nvim",
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    "kepano/flexoki-neovim",
+    lazy = true,
+    priority = 1000,
   },
   {
     "ellisonleao/gruvbox.nvim",
     lazy = true,
     priority = 1000,
-    opts = {
-      transparent_mode = true,
-    },
+  },
+  {
+    "rebelot/kanagawa.nvim",
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    "tahayvr/matteblack.nvim",
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    "gthelding/monokai-pro.nvim",
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    "EdenEast/nightfox.nvim",
+    lazy = true,
+    priority = 1000,
   },
   {
     "rose-pine/neovim",
     name = "rose-pine",
-    opts = {
-      variant = "auto", -- auto, main, moon, or dawn
-      dark_variant = "main",
-      dim_inactive_windows = false,
-      extend_background_behind_borders = true,
-
-      styles = {
-        bold = true,
-        italic = true,
-        transparency = true,
-      },
-    },
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    "ficcdaf/ashen.nvim",
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    "folke/tokyonight.nvim",
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    "OldJobobo/miasma.nvim",
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    "OldJobobo/retro-82.nvim",
+    lazy = true,
+    priority = 1000,
+  },
+  {
+    "omacom-io/lumon.nvim",
+    lazy = true,
+    priority = 1000,
   },
 }
