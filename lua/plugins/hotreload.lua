@@ -6,7 +6,7 @@ return {
     priority = 1000,
     config = function()
       local transparency_file = vim.fn.stdpath("config") .. "/plugin/after/transparency.lua"
-      local omarchy_current_dir = vim.fn.expand("~/.config/omarchy/current")
+      local omarchy_current_dir = vim.fn.expand("~/.local/state/omarchy/current")
       local omarchy_theme_name_file = omarchy_current_dir .. "/theme.name"
 
       local function read_omarchy_theme_name()

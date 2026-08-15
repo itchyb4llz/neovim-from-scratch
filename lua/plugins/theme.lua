@@ -1,4 +1,4 @@
-local omarchy_theme_spec = vim.fn.expand("~/.config/omarchy/current/theme/neovim.lua")
+local omarchy_theme_spec = vim.fn.expand("~/.local/state/omarchy/current/theme/neovim.lua")
 
 if vim.fn.filereadable(omarchy_theme_spec) == 0 then
   return {}
