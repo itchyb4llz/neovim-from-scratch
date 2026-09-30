@@ -1,10 +1,9 @@
 return {
   "coder/claudecode.nvim",
+  lazy = false,
   dependencies = { "folke/snacks.nvim" },
   opts = {
-    terminal = {
-      provider = "none", -- you run Claude in a herdr pane, not inside nvim
-    },
+    terminal = { provider = "none" },
   },
   keys = {
     { "<leader>a", nil, desc = "AI/Claude Code" },
